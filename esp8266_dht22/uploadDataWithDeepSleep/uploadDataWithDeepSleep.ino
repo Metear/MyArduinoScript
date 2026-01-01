@@ -31,7 +31,7 @@ const int MQTT_PORT = 1883;
 
 // ============== 系统参数 ==============
 #define SLEEP_MINUTES 10  // 数据发送间隔(分钟)
-#define DEEP_SLEEP     // 启用深度睡眠节省功耗(需连接GPIO16-RST)
+ #define DEEP_SLEEP     // 启用深度睡眠节省功耗(需连接GPIO16-RST)
 
 DHT dht(DHTPIN, DHTTYPE);  // 使用DHT类初始化传感器
 WiFiClient espClient;
